@@ -1,0 +1,21 @@
+*{
+    box-sizing: border-box;
+}
+/**header**/
+#nav-list a{
+    text-align: center;
+}
+#nav-list a:hover{
+    background: #e7e7e7;
+}
+
+/**section**/
+h1{
+    margin-bottom: 30px;
+}
+
+div.col{
+    margin-right: 10px;
+    background-color: lightgray;
+    margin-bottom: 15px;
+}
