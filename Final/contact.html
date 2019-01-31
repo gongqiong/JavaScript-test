@@ -8,7 +8,7 @@
     <link rel='stylesheet' href='css/bootstrap.min.css'>
     <link rel='stylesheet' href='css/styles.css'>
 </head>
-<body>
+<body id="contact-page">
     <header>
         <nav id='header-nav' class='navbar navbar-expand-lg navbar-dark bg-dark'>
             <a class="navbar-brand" href="home.html"><img src="image/logo.png" width="30" height="30" class="d-inline-block align-top" alt="">Gong' Life in Tokyo</a>
@@ -33,7 +33,7 @@
                 </ul>  
             </div>
             <form class="form-inline">
-                <button id='join' class="btn btn-secondary my-2 my-sm-0" type="button">Join</button>
+                <button id='join' class="btn btn-secondary my-2 my-sm-0 hidden-xs" type="button">Join</button>
             </form>
         </nav>
     </header>
@@ -43,15 +43,27 @@
             <div class="col-md-6 col-sm-12 col-xs-12">
                 <a href="https://goo.gl/maps/FNhwYUb57MB2" target="_blank">
                     <div id="map-tile">
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3240.5180659111893!2d139.7344933149887!3d35.68886693716109!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188c66b3422b3f%3A0xfdf845cb0f5e7fca!2sSophia+University+Ichigaya+Campus!5e0!3m2!1szh-CN!2sjp!4v1548474714613" width="100%" height="250" frameborder="0" style="border:0" allowfullscreen></iframe>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3240.5180659111893!2d139.7344933149887!3d35.68886693716109!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188c66b3422b3f%3A0xfdf845cb0f5e7fca!2sSophia+University+Ichigaya+Campus!5e0!3m2!1szh-CN!2sjp!4v1548474714613" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
                         <span>Map</span>
                     </div>
                 </a>
             </div>
+            <div class="col-md-6 col-sm-12 col-xs-12 contact-detail">
+                <h3 class="contact-email">Email</h3>
+                <a href="mailto:gongqiongbnu@mail.com" class="contact-email-detail">gongqiongbnu@mail.com</a><br><br>
+                <h3 class="contact-address">Address</h3>
+                <address class="contact-address-detail"><i>
+                    Yotsuya Campus<br>
+                    7-1 Kioi-cho,Chiyoda-ku,<br>
+                    Tokyo,102-8554<br></i>
+                </address>
+            </div>
         </div>
+        <h4>Feel free to contact us!</h4>
+        <p>We are looking forward to seeing you</p>
     </div>
 
-    <footer class="panel-footer">
+    <footer class="panel-footer fixed-bottom">
         <div class="container">
             <div class="text-center">&copy; Gong's life in Tokyo</div>
         </div>

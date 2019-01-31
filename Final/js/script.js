@@ -20,3 +20,27 @@ $("#success-page .backtohome").click(function(event){
 $("#join-page .backtohome").click(function(event){
     window.location.href = "./home.html";
 })
+
+//contact-page
+$(function(){
+    function footerPosition(){
+        $("footer").removeClass("fixed-bottom");
+        var contentHeight = document.body.scrollHeight,
+            winHeight = window.innerHeight;
+        if(!(contentHeight > winHeight)){
+            $("footer").addClass("fixed-bottom");
+        }
+    }
+    footerPosition();
+    $(window).resize(footerPosition);
+});
+$(function(){
+    $("#join2").click(function(event){
+        window.location.href = "./join.html";
+    })
+});
+$(function(){
+    $("#start").click(function(event){
+        window.location.href = "./food.html";
+    })
+});

@@ -66,13 +66,3 @@
 #success-page div{
     margin: auto;
 }
-
-/****contact page****/
-#home-tiles{
-    padding-top: 60px;
-}
-
-#contact-page html,body{
-    margin:0;padding: 0;
-}
-#contact-page .fixed-bottom {position: fixed;bottom: 0;width:100%;}
