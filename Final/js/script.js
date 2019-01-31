@@ -1,4 +1,5 @@
-//home-page
+/**home-page */
+//hide the toggler
 $(function(){
     $(".navbar-toggler").blur(function(event){
         var screenWidth = window.innerWidth;
@@ -7,21 +8,35 @@ $(function(){
         }
     });
 });
+//link to join page
 $(function(){
-    $("#join").click(function(event){
+    $("#join,#join2").click(function(event){
         window.location.href = "./join.html";
     })
 });
-//join-page 
+//link to food page
+$(function(){
+    $("#start").click(function(event){
+        window.location.href = "./food.html";
+    })
+});
+/**join-page */
 $("#success-page .backtohome").click(function(event){
     window.location.href = "./home.html";
 })
-//successjoin-page
+/**successjoin-page */
 $("#join-page .backtohome").click(function(event){
     window.location.href = "./home.html";
 })
 
-//contact-page
+
+/**food page */
+
+/**events page */
+
+/**contact-page */
+
+/******footer******/
 $(function(){
     function footerPosition(){
         $("footer").removeClass("fixed-bottom");
@@ -33,14 +48,4 @@ $(function(){
     }
     footerPosition();
     $(window).resize(footerPosition);
-});
-$(function(){
-    $("#join2").click(function(event){
-        window.location.href = "./join.html";
-    })
-});
-$(function(){
-    $("#start").click(function(event){
-        window.location.href = "./food.html";
-    })
 });

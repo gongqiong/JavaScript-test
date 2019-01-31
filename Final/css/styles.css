@@ -1,5 +1,7 @@
 /****Home Page****/
-
+#contextpart{
+    padding-top: 30px;
+}
 #food-tile, #events-tile, #map-tile{
     height: 250px;
     width: 100%;
@@ -12,14 +14,8 @@
 #food-tile:hover, #events-tile:hover, #map-tile:hover{
     box-shadow: 0 2px 5px 2px #cccccc;
 }
-#food-tile{
-    background: url('/image/food.JPG') no-repeat;
-    background-position: center;
-}
-#events-tile{
-    background: url('/image/shinjuku.JPG') no-repeat;
-    background-position: center;
-}
+
+
 #food-tile span, #events-tile span, #map-tile span{
     position: absolute;
     bottom: 0;
@@ -32,9 +28,18 @@
     color: #ffffff;
     opacity: .6;
 }
-
+/****food Page****/
+#food-page #food-tile, #food-page #events-tile, #food-page #map-tile{
+    height: 350px;
+    width: 100%;
+    margin-bottom: 15px;
+    position: relative;
+    border:2px solid lightgrey;
+    overflow: hidden;
+}
 /****footer****/
-.panel-footer{
+
+.panel-footer {
     color: #777777;
     margin-top: 30px;
     padding-top: 35px;

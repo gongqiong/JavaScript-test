@@ -8,7 +8,7 @@
     <link rel='stylesheet' href='css/bootstrap.min.css'>
     <link rel='stylesheet' href='css/styles.css'>
 </head>
-<body>
+<body id="events-page">
     <header>
         <nav id='header-nav' class='navbar navbar-expand-lg navbar-dark bg-dark'>
             <a class="navbar-brand" href="home.html"><img src="image/logo.png" width="30" height="30" class="d-inline-block align-top" alt="">Gong' Life in Tokyo</a>
@@ -21,24 +21,22 @@
                 <li class="nav-item">
                     <a class="nav-link" href="home.html">Home <span class="sr-only">(current)</span></a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="food.html">Food</a>
+                <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="food.html" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Food <!--*problem cannot link to food.html-->
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="food.html">food</a>
+                            <a class="dropdown-item" href="restaurant.html">restaurant</a>
+                            <a class="dropdown-item" href="cook.html">cook at home</a>
+                        </div>
+                </li>
                 </li>
                 <li class="nav-item active">
-                    <a class="nav-link" href="envents.html">Events</a>
+                    <a class="nav-link" href="events.html">Events</a>
                 </li>
                 <li class="nav-item">
                         <a class="nav-link" href="contact.html">Contact us</a>
-                </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Sort by
-                    </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                    <a class="dropdown-item" href="#">Action</a>
-                    <a class="dropdown-item" href="#">Another action</a>
-                    <a class="dropdown-item" href="#">Something else here</a>
-                    </div>
                 </li>
                 </ul>  
             </div>
@@ -47,18 +45,91 @@
             </form>
         </nav>
     </header>
+    <div id='contextpart'> 
+        
+    </div>
     <div id="main-content" class="container">
         <div id="home-tiles" class="row">
-            
-            <div class="col-md-6 col-sm-12 col-xs-12">
-                <a href="single-category.html">
+            <!--1-->
+            <div class="col-md-4 col-sm-6 col-xs-12">
+                <a href="cook.html">
                     <div id="events-tile">
-                        <img src="/image/shinjuku.JPG" height='250px' width='100%' alt="shinjuku" class="img-fuild">
-                        <span>Events</span>
+                        <img src="/image/events/Fujisan.jpeg" height='250px' width='110%' alt="Fujisan" class="img-fuild">
+                        <span>Mount Fuji</span>
                     </div>
                 </a>
             </div>
-            
+            <!--2-->
+            <div class="col-md-4 col-sm-6 col-xs-12">
+                <a href="uenozoo.html">
+                    <div id="events-tile">
+                        <img src="/image/events/uenozoo.jpeg" height='250px' width='110%' alt="Ueno Zoo" class="img-fuild">
+                        <span>Ueno Zoo</span>
+                    </div>
+                </a>
+            </div>
+            <!--3-->
+            <div class="col-md-4 col-sm-6 col-xs-12">
+                <a href="cook.html">
+                    <div id="events-tile">
+                        <img src="/image/events/Enoshima.jpeg" height='250px' width='110%' alt="Enoshima" class="img-fuild">
+                        <span>Enoshima</span>
+                    </div>
+                </a>
+            </div>
+            <!--4-->
+            <div class="col-md-4 col-sm-6 col-xs-12">
+                <a href="cook.html">
+                    <div id="events-tile">
+                        <img src="/image/events/museum.jpg" height='250px' width='110%' alt="museum" class="img-fuild">
+                        <span>Museum</span>
+                    </div>
+                </a>
+            </div>
+            <!--5-->
+            <div class="col-md-4 col-sm-6 col-xs-12">
+                <a href="Shinjuku_Gyo-en.html">
+                    <div id="food-tile">
+                        <img src="/image/shinjuku.JPG" height='250px' width='100%' alt="Shinjuku Gyo-en" class="img-fuild">
+                        <span>Shinjuku Gyo-en</span>
+                    </div>
+                </a>
+            </div>
+            <!--6-->
+            <!--7-->
+            <div class="col-md-4 col-sm-6 col-xs-12">
+                <a href="cook.html">
+                    <div id="events-tile">
+                        <img src="/image/events/illumination.JPG" height='250px' width='110%' alt="illumination" class="img-fuild">
+                        <span>illumination</span>
+                    </div>
+                </a>
+            </div>
+            <!--8-->
+            <!--9-->
+            <div class="col-md-4 col-sm-6 col-xs-12">
+                <a href="cook.html">
+                    <div id="events-tile">
+                        <img src="/image/events/yourname.JPG" height='250px' width='110%' alt="your name" class="img-fuild">
+                        <span>Your Name</span>
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-4 col-sm-6 col-xs-12">
+                <a href="#">
+                    <div id="events-tile">
+                        <img src="/image/events/LakeSagami.jpg" height='250px' width='110%' alt="Lake Sagami" class="img-fuild">
+                        <span>Lake Sagami</span>
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-4 col-sm-6 col-xs-12">
+                <a href="cook.html">
+                    <div id="events-tile">
+                        <img src="/image/events/Fireworks.JPG" height='250px' width='110%' alt="Fireworks" class="img-fuild">
+                        <span>Fireworks</span>
+                    </div>
+                </a>
             </div>
         </div>
     </div>
