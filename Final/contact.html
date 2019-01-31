@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Gong Website</title>
+    <link rel='stylesheet' href='css/bootstrap.min.css'>
+    <link rel='stylesheet' href='css/styles.css'>
+</head>
+<body>
+    <header>
+        <nav id='header-nav' class='navbar navbar-expand-lg navbar-dark bg-dark'>
+            <a class="navbar-brand" href="home.html"><img src="image/logo.png" width="30" height="30" class="d-inline-block align-top" alt="">Gong' Life in Tokyo</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="home.html">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="food.html">Food</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="envents.html">Events</a>
+                    </li>
+                    <li class="nav-item active">
+                            <a class="nav-link" href="contact.html">Contact us</a>
+                    </li>
+                </ul>  
+            </div>
+            <form class="form-inline">
+                <button id='join' class="btn btn-secondary my-2 my-sm-0" type="button">Join</button>
+            </form>
+        </nav>
+    </header>
+
+    <div id="main-content" class="container">
+        <div id="home-tiles" class="row">
+            <div class="col-md-6 col-sm-12 col-xs-12">
+                <a href="https://goo.gl/maps/FNhwYUb57MB2" target="_blank">
+                    <div id="map-tile">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3240.5180659111893!2d139.7344933149887!3d35.68886693716109!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188c66b3422b3f%3A0xfdf845cb0f5e7fca!2sSophia+University+Ichigaya+Campus!5e0!3m2!1szh-CN!2sjp!4v1548474714613" width="100%" height="250" frameborder="0" style="border:0" allowfullscreen></iframe>
+                        <span>Map</span>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <footer class="panel-footer">
+        <div class="container">
+            <div class="text-center">&copy; Gong's life in Tokyo</div>
+        </div>
+    </footer>
+    <!-- jQuery -->
+    <script src='js/jquery.min.js'></script>
+    <script src='js/bootstrap.min.js'></script>
+    <script src='js/script.js'></script>
+</body>
+</html>
